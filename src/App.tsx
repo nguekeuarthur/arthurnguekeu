@@ -213,7 +213,7 @@ function App() {
             <div className="relative group">
               <div className="absolute inset-0 bg-blue-500 rounded-lg transform translate-x-3 translate-y-3 group-hover:translate-x-5 group-hover:translate-y-5 transition-transform"></div>
               <img 
-                src="images/IMG_8534.jpg"
+                src="public/images/IMG_8534.jpg"
                 alt="Profile"
                 className="rounded-lg shadow-lg relative z-10 transition-transform group-hover:scale-[1.02]"
               />
