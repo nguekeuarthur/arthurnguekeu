@@ -220,7 +220,7 @@ function App() {
             </div>
             <div>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-                I'm a data analyst with 2 years of experience analyzing data and extracting insights.
+                 a data analyst with 2 years of experience analyzing data and extracting insights.
 I'm passionate about data visualization, problem-solving, and learning new analytical tools.
               </p>
               
