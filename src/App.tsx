@@ -213,14 +213,14 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative group">
               <div className="absolute inset-0 bg-blue-500 rounded-lg transform translate-x-3 translate-y-3 group-hover:translate-x-5 group-hover:translate-y-5 transition-transform"></div>
-              <img src="/public/images/IMG_8534.JPG"
+              <img src="/assets/IMG_8534.JPG"
                 alt="Profile"
                 className="rounded-lg shadow-lg relative z-10 transition-transform group-hover:scale-[1.02]"
               />
             </div>
             <div>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-                 a data analyst with 2 years of experience analyzing data and extracting insights.
+                I'm a data analyst with 2 years of experience analyzing data and extracting insights.
 I'm passionate about data visualization, problem-solving, and learning new analytical tools.
               </p>
               
