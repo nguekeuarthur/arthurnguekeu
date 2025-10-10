@@ -12,8 +12,31 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
     const savedTheme = localStorage.getItem('theme');
-    return (savedTheme as Theme) || 'light';
+    if (savedTheme) return savedTheme as Theme;
+    return getInitialTheme();
   });
+
+  // Fonction pour déterminer le thème en fonction de l'heure
+  const getInitialTheme = (): Theme => {
+    const hour = new Date().getHours();
+    return (hour >= 6 && hour < 19) ? 'light' : 'dark';
+  };
+
+  // Effet pour mettre à jour le thème automatiquement
+  useEffect(() => {
+    const updateThemeBasedOnTime = () => {
+      const newTheme = getInitialTheme();
+      setTheme(newTheme);
+    };
+
+    // Met à jour le thème toutes les minutes
+    const interval = setInterval(updateThemeBasedOnTime, 60000);
+
+    // Appel initial
+    updateThemeBasedOnTime();
+
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     localStorage.setItem('theme', theme);
