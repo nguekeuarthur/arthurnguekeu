@@ -80,15 +80,15 @@ function App() {
       link: 'https://github.com/nguekeuarthur/Inventory.git',
       category: 'Financial Analysis'
     },
-    // {
-    //   title: 'Sentiment Analysis Tool',
-    //   shortDescription: 'Created a sentiment analysis tool for customer feedback.',
-    //   description: 'A natural language processing tool that analyzes customer reviews and social media mentions to gauge public sentiment. The tool provides valuable insights for product improvement and customer satisfaction monitoring.',
-    //   technologies: ['Python', 'NLTK', 'Flask', 'SpaCy', 'Docker'],
-    //   image: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    //   link: '#',
-    //   category: 'NLP'
-    // }
+    {
+      title: 'MailPilot - AI Email Classification PWA',
+      shortDescription: 'Application intelligente pour classifier automatiquement vos emails Gmail avec IA et interface élégante.',
+      description: 'PWA moderne pour la gestion intelligente d\'emails. Connectez Gmail via OAuth, définissez vos catégories, et laissez l\'IA classer vos emails automatiquement. Design minimaliste, synchronisation automatique, disponible sur tous vos appareils.',
+      technologies: ['Service Worker', 'TensorFlow.js', 'Stripe', 'Google OAuth', 'Vite', 'React', 'TypeScript', 'Tailwind CSS'],
+      image: 'images/MailPilot.gif',
+      link: 'https://github.com/nguekeuarthur/MailPilot.git',
+      category: 'Websites'
+    }
   ];
 
   return (
