@@ -9,18 +9,18 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
+// Fonction pour déterminer le thème en fonction de l'heure
+const getInitialTheme = (): Theme => {
+  const hour = new Date().getHours();
+  return (hour >= 6 && hour < 19) ? 'light' : 'dark';
+};
+
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) return savedTheme as Theme;
     return getInitialTheme();
   });
-
-  // Fonction pour déterminer le thème en fonction de l'heure
-  const getInitialTheme = (): Theme => {
-    const hour = new Date().getHours();
-    return (hour >= 6 && hour < 19) ? 'light' : 'dark';
-  };
 
   // Effet pour mettre à jour le thème automatiquement
   useEffect(() => {

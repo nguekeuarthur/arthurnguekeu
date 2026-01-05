@@ -82,8 +82,8 @@ function App() {
     },
     {
       title: 'MailPilot - AI Email Classification PWA',
-      shortDescription: 'Application intelligente pour classifier automatiquement vos emails Gmail avec IA et interface élégante.',
-      description: 'PWA moderne pour la gestion intelligente d\'emails. Connectez Gmail via OAuth, définissez vos catégories, et laissez l\'IA classer vos emails automatiquement. Design minimaliste, synchronisation automatique, disponible sur tous vos appareils.',
+      shortDescription: 'Intelligent application to automatically classify your Gmail emails with AI and elegant interface.',
+      description: 'Modern PWA for intelligent email management. Connect Gmail via OAuth, define your categories, and let AI classify your emails automatically. Minimalist design, automatic synchronization, available on all your devices.',
       technologies: ['Service Worker', 'TensorFlow.js', 'Stripe', 'Google OAuth', 'Vite', 'React', 'TypeScript', 'Tailwind CSS'],
       image: 'images/MailPilot.gif',
       link: 'https://github.com/nguekeuarthur/MailPilot.git',
@@ -306,14 +306,14 @@ I'm passionate about data visualization, problem-solving, and learning new analy
               </div>
             ))}
           </div>
-          {/* <div className="text-center">
+          <div className="text-center">
             <RouterLink
               to="/all-projects"
               className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all hover:scale-105"
             >
               View More Projects <ExternalLink size={20} className="ml-2" />
             </RouterLink>
-          </div> */}
+          </div>
         </div>
       </section>
 
