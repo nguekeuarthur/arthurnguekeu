@@ -18,7 +18,7 @@ export function AllProjects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const allProjects: Project[] = [
-    // Original 6 projects
+    // Original 6 project
     {
       title: 'Wealth Planning Platform',
       shortDescription: 'Professional platform for wealth management consulting and business structuring.',
