@@ -62,23 +62,22 @@ function App() {
       link: 'https://timetotechs.com/',
       category: 'Websites'
     },
+   
     {
-      title: 'Customer Segmentation Analysis',
-      shortDescription: 'Interactive Streamlit Dashboard: dynamic filters, visualizations, maps, exports and neat design.',
-      description: 'Streamlit analysis dashboard of cleaned form responses: interactive filters, key metrics, dynamic graphs and geographic map, all in a responsive and neat interface.',
-      technologies: ['Python', 'Scikit-learn', 'Pandas', 'Matplotlib', 'Seaborn','Streamlit','Folium '],
-      image: 'images/Streamlit.gif',
-      link: 'https://github.com/nguekeuarthur/AnalyseDataBrian.git',
-      category: 'Data Analysis'
+      title: 'Matricx Consulting – Web Showcase & Blog Platform',
+      shortDescription: 'A professional website for Matricx Consulting featuring a showcase, blog, job offers, team, contact, PWA, and content management.',
+      description: 'Matricx Consulting is a modern web platform designed to highlight the company’s expertise, services, and team. It includes a professional showcase, dynamic blog, job offers, partner and testimonial sections, and a contact form. The site is a Progressive Web App (PWA) and uses Sanity for content management, ensuring a fast and flexible user experience.',
+      technologies: ['React', 'Vite', 'Tailwind CSS', 'TypeScript', 'Sanity', 'PWA'],
+      image: 'images/matricxConsulting.gif',
+      link: 'https://matricxconsulting.com/'
     },
     {
-      title: 'Stock Market Prediction Model',
-      shortDescription: 'Power BI dashboard for managing stocks, sales, and forecasts.',
-      description: 'An interactive Power BI dashboard to monitor inventory in real time, analyze sales, and forecast demand across different regions and product categories.',
-      technologies: ['Power BI', 'SQL', 'Excel', 'DAX'],
-      image: 'images/inventoryProject.gif',
-      link: 'https://github.com/nguekeuarthur/Inventory.git',
-      category: 'Financial Analysis'
+      title: 'Wealth Planning Platform',
+      shortDescription: 'Professional platform for wealth management consulting and business structuring.',
+      description: 'A modern and multilingual web platform allowing clients to discover our wealth management, tax planning and business structuring services. The application offers an elegant interface for appointment scheduling, contact requests and access to detailed information about our personalized support services.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Vite', 'Context API'],
+      image: 'images/wealth-plannig.gif',
+      link: 'https://www.genevawealthpartners.ch/'
     },
     {
       title: 'MailPilot - AI Email Classification PWA',

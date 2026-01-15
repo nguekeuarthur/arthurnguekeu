@@ -18,23 +18,26 @@ export function AllProjects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const allProjects: Project[] = [
-    // Original 6 project
+    // Original 6 projects
+    
     {
-      title: 'Wealth Planning Platform',
-      shortDescription: 'Professional platform for wealth management consulting and business structuring.',
-      description: 'A modern and multilingual web platform allowing clients to discover our wealth management, tax planning and business structuring services. The application offers an elegant interface for appointment scheduling, contact requests and access to detailed information about our personalized support services.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Vite', 'Context API'],
-      image: 'images/wealth-plannig.gif',
-      link: 'https://www.genevawealthpartners.ch/'
+      title: 'Stock Market Prediction Model',
+      shortDescription: 'Power BI dashboard for managing stocks, sales, and forecasts.',
+      description: 'An interactive Power BI dashboard to monitor inventory in real time, analyze sales, and forecast demand across different regions and product categories.',
+      technologies: ['Power BI', 'SQL', 'Excel', 'DAX'],
+      image: 'images/inventoryProject.gif',
+      link: 'https://github.com/nguekeuarthur/Inventory.git',
+      category: 'Financial Analysis'
     },
-    // {
-    //   title: 'Task Manager Application',
-    //   shortDescription: 'Created a task management app with React and Firebase.',
-    //   description: 'A collaborative task management application that enables teams to organize, track, and complete projects efficiently. Features include real-time updates, task assignments, due date tracking, and progress monitoring.',
-    //   technologies: ['React', 'Firebase', 'Tailwind CSS', 'TypeScript'],
-    //   image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    //   link: 'https://dhoola-app-visualization.streamlit.app/'
-    // },
+     {
+      title: 'Customer Segmentation Analysis',
+      shortDescription: 'Interactive Streamlit Dashboard: dynamic filters, visualizations, maps, exports and neat design.',
+      description: 'Streamlit analysis dashboard of cleaned form responses: interactive filters, key metrics, dynamic graphs and geographic map, all in a responsive and neat interface.',
+      technologies: ['Python', 'Scikit-learn', 'Pandas', 'Matplotlib', 'Seaborn','Streamlit','Folium '],
+      image: 'images/Streamlit.gif',
+      link: 'https://github.com/nguekeuarthur/AnalyseDataBrian.git',
+      category: 'Data Analysis'
+    },
     // {
     //   title: 'Sales Analytics Dashboard',
     //   shortDescription: 'Developed an interactive dashboard using Power BI.',
