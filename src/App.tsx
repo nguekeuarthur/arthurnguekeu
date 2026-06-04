@@ -229,10 +229,10 @@ I'm passionate about data visualization, problem-solving, and learning new analy
                 <div className="relative flex justify-between">
                   <div className="text-center group">
                     <div className="w-8 h-8 bg-blue-500 rounded-full mx-auto mb-2 relative z-10 group-hover:scale-110 transition-transform"></div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">April 2026 - Present</p>
-                    <p className="font-bold dark:text-white">Analyste d'exploitation IT</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">DigitalDetectives · Stage</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Genève, Suisse</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">April 2026 - June 2026</p>
+                    <p className="font-bold dark:text-white">IT Operations Analyst</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">DigitalDetectives · Internship </p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Geneva, Switzerland</p>
                   </div>
                   <div className="text-center group">
                     <div className="w-8 h-8 bg-blue-500 rounded-full mx-auto mb-2 relative z-10 group-hover:scale-110 transition-transform"></div>
