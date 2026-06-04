@@ -229,9 +229,10 @@ I'm passionate about data visualization, problem-solving, and learning new analy
                 <div className="relative flex justify-between">
                   <div className="text-center group">
                     <div className="w-8 h-8 bg-blue-500 rounded-full mx-auto mb-2 relative z-10 group-hover:scale-110 transition-transform"></div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">2025 - Present</p>
-                    <p className="font-bold dark:text-white">Data Analyst</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">Currently Seeking an Internship</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">April 2026 - Present</p>
+                    <p className="font-bold dark:text-white">Analyste d'exploitation IT</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">DigitalDetectives · Stage</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Genève, Suisse</p>
                   </div>
                   <div className="text-center group">
                     <div className="w-8 h-8 bg-blue-500 rounded-full mx-auto mb-2 relative z-10 group-hover:scale-110 transition-transform"></div>
@@ -320,49 +321,70 @@ I'm passionate about data visualization, problem-solving, and learning new analy
       <section className="py-20 dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center dark:text-white">Certifications</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-orange-50 to-orange-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
-              <a 
-              href="https://learn.microsoft.com/fr-fr/users/arthurnguekeu-3989/credentials/8cabac74735994b2?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
-              target="_blank" 
-              rel="noopener noreferrer"
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="bg-gradient-to-br from-sky-50 to-sky-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+              <a
+                href="https://learn.microsoft.com/api/credentials/share/en-us/arthurNguekeu/B3FAF7BFBD8E25C3?sharingId=A4F7818FBBF423E8"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-              <img 
-                src="https://images.credly.com/size/340x340/images/619f60f8-4f63-4772-910e-dc31c6f2f7e8/image.png"
-                alt="Microsoft Certified: Power BI Data Analyst Associate"
-                className="w-32 h-32 mx-auto mb-4 hover:scale-105 transition-transform"
-              />
-              <h3 className="text-xl font-bold mb-2 dark:text-white">Microsoft Certified: Power BI Data Analyst Associate</h3>
-              <p className="text-gray-600 dark:text-gray-300">Issued Nov 2024</p>
+                <img
+                  src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+                  alt="Microsoft Certified: Azure Fundamentals"
+                  className="w-32 h-32 mx-auto mb-4 hover:scale-105 transition-transform"
+                />
+                <h3 className="text-xl font-bold mb-2 dark:text-white">Microsoft Certified: Azure Fundamentals</h3>
+                <p className="text-gray-600 dark:text-gray-300">Issued May 2026</p>
+              </a>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+              <a
+                href="https://learn.microsoft.com/api/credentials/share/en-us/arthurNguekeu/442D1172391AEE74?sharingId=A4F7818FBBF423E8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://images.credly.com/images/4136ced8-75d5-4afb-8677-40b6236e2672/azure-ai-fundamentals-600x600.png"
+                  alt="Microsoft Certified: Azure AI Fundamentals"
+                  className="w-32 h-32 mx-auto mb-4 hover:scale-105 transition-transform"
+                />
+                <h3 className="text-xl font-bold mb-2 dark:text-white">Microsoft Certified: Azure AI Fundamentals</h3>
+                <p className="text-gray-600 dark:text-gray-300">Issued May 2026</p>
+              </a>
+            </div>
+
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+              <a
+                href="https://learn.microsoft.com/fr-fr/users/arthurnguekeu-3989/credentials/8cabac74735994b2?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://images.credly.com/size/340x340/images/619f60f8-4f63-4772-910e-dc31c6f2f7e8/image.png"
+                  alt="Microsoft Certified: Power BI Data Analyst Associate"
+                  className="w-32 h-32 mx-auto mb-4 hover:scale-105 transition-transform"
+                />
+                <h3 className="text-xl font-bold mb-2 dark:text-white">Microsoft Certified: Power BI Data Analyst Associate</h3>
+                <p className="text-gray-600 dark:text-gray-300">Issued Nov 2024</p>
               </a>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
-              <a 
+              <a
                 href="https://www.credly.com/badges/8ed9da60-aa65-4a9e-a248-f96791bfa30f/linked_in?t=rl734h"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img 
+                <img
                   src="https://images.credly.com/size/340x340/images/4e3d6f9f-55d7-4ea7-b0e6-f4d4ff543e22/image.png"
-                  alt="TensorFlow Developer"
+                  alt="Scrum Foundation Professional Certification"
                   className="w-32 h-32 mx-auto mb-4 hover:scale-105 transition-transform"
                 />
                 <h3 className="text-xl font-bold mb-2 dark:text-white">Scrum Foundation Professional Certification</h3>
                 <p className="text-gray-600 dark:text-gray-300">Issued Nov 2022</p>
               </a>
-              
             </div>
-
-            {/* <div className="bg-gradient-to-br from-green-50 to-green-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
-              <img 
-                src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
-                alt="Azure Data Scientist"
-                className="w-32 h-32 mx-auto mb-4 hover:scale-105 transition-transform"
-              />
-              <h3 className="text-xl font-bold mb-2 dark:text-white">Azure Data Scientist</h3>
-              <p className="text-gray-600 dark:text-gray-300">Issued Jun 2023</p>
-            </div> */}
           </div>
         </div>
       </section>
