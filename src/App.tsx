@@ -321,7 +321,23 @@ I'm passionate about data visualization, problem-solving, and learning new analy
       <section className="py-20 dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center dark:text-white">Certifications</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+            <div className="bg-gradient-to-br from-teal-50 to-teal-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+              <a
+                href="https://learn.microsoft.com/en-us/users/arthurnguekeu/credentials/203c1914874e922f"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
+                  alt="Microsoft Certified: Fabric Data Engineer Associate"
+                  className="w-32 h-32 mx-auto mb-4 hover:scale-105 transition-transform"
+                />
+                <h3 className="text-xl font-bold mb-2 dark:text-white">Microsoft Certified: Fabric Data Engineer Associate</h3>
+                <p className="text-gray-600 dark:text-gray-300">Issued Jun 2026</p>
+              </a>
+            </div>
+
             <div className="bg-gradient-to-br from-sky-50 to-sky-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
               <a
                 href="https://learn.microsoft.com/api/credentials/share/en-us/arthurNguekeu/B3FAF7BFBD8E25C3?sharingId=A4F7818FBBF423E8"
